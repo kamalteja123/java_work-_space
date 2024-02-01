@@ -1,4 +1,4 @@
-FROM openjdk:11-jre-slim
+FROM openjdk:17
 COPY . /appl
 WORKDIR appl
 RUN javac Simple.java
